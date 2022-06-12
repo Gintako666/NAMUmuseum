@@ -1,0 +1,34 @@
+@import url(../css/header.css);
+@import url(../css/nav.css);
+@import url(../css/exhibitions.css);
+@import url(../css/events.css);
+@import url(../css/visit.css);
+@import url(../css/news.css);
+@import url(../css/subscribe.css);
+@import url(../css/footer.css);
+@import url(../css/media.css);
+@import url(../css/slider.css);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container1170px {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

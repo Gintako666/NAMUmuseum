@@ -1,0 +1,70 @@
+.subscribe {
+  color: black;
+  padding: 100px 55px;
+}
+.subscribe__top {
+  display: flex;
+  gap: 30px;
+  padding: 0 0 50px 0;
+  align-items: flex-start;
+}
+.subscribe__title {
+  font-size: 48px;
+  line-height: 57.6px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.subscribe__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+.subscribe__email {
+  border: none;
+  border-bottom: solid 1px black;
+  width: 470px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.subscribe__email::-webkit-input-placeholder {
+  transition: 0.3s;
+}
+.subscribe__email:hover {
+  color: #CD4D31;
+  border-bottom: solid 1px #CD4D31;
+}
+.subscribe__email:hover::-webkit-input-placeholder {
+  color: #CD4D31;
+}
+.subscribe__email:focus {
+  outline-style: none;
+  box-shadow: none;
+}
+.subscribe__button {
+  color: #fff;
+  outline-style: none;
+  border: none;
+  margin: 0;
+}
+.subscribe__button {
+  display: block;
+  width: 270px;
+  height: 60px;
+  background: #CD4D31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 135px;
+  transition: 0.4s;
+}
+.subscribe__button:hover {
+  background: #AF3419;
+}
+
+/*# sourceMappingURL=subscribe.css.map */

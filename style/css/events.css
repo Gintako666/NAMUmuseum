@@ -1,0 +1,19 @@
+.events {
+  padding: 50px 55px 110px 55px;
+}
+.events__top {
+  padding: 0 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.events__items {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.events__item {
+  display: flex;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=events.css.map */

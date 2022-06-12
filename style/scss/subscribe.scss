@@ -1,0 +1,74 @@
+.subscribe{
+    color: black;
+    padding: 100px 55px;
+    &__top{
+        display: flex;
+        gap: 30px;
+        padding: 0 0 50px 0;
+        align-items:flex-start
+    }
+    &__title{
+        font-size: 48px;
+        line-height: 57.6px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'Playfair Display', serif;
+    }
+
+    &__email{
+        border:none;
+        border-bottom:solid 1px black;
+        width: 470px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+        transition: .3s;
+        font-weight: 700;
+    }
+    &__email::-webkit-input-placeholder{
+        transition: .3s;
+    }
+    &__email:hover{
+        color: #CD4D31;
+        border-bottom:solid 1px #CD4D31;
+        &::-webkit-input-placeholder{
+            color: #CD4D31;
+        }
+    }
+   
+    
+    &__email:focus{
+        outline-style: none;
+  box-shadow: none;
+    }
+    &__button{
+        color:#fff;
+        outline-style: none;
+       border:none;
+        margin: 0;
+    }
+    &__button{
+        display: block;
+        width: 270px;
+        height: 60px;
+        background: #CD4D31;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+
+        font-size: 16px;
+        line-height: 16px;
+
+        margin-bottom: 135px;
+
+        transition: 0.4s;
+       }
+       &__button:hover{
+           background: #AF3419;
+       }
+}

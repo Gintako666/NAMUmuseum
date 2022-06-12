@@ -1,0 +1,110 @@
+
+.exhibitions{
+    
+    padding: 100px 55px 50px 55px;
+    color:#1C1B29;
+
+    /*TOP*/
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 0 0 70px 0;
+    }
+    &__title{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+    }
+    &__button{
+        display: block;
+        width: 270px;
+        height: 70px;
+
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 11px;
+
+        border: solid 1px #CD4D31;
+
+        color: #CD4D31;
+        font-size: 16px;
+        line-height: 16px;
+
+        box-sizing:border-box;
+
+        transition: .5s;
+        &__media320px{
+            display:none;
+            
+        }
+        .exhibitions__button__arrow{
+            transition: .2s;
+        }
+    }
+    &__button:hover{
+        border:solid 1px #AF3419;
+        color: #AF3419;
+        .exhibitions__button__arrow{
+            stroke: #AF3419;
+        }
+    }
+
+    /*ITEM*/
+
+    &__items{
+        display: flex;
+    }
+    &__item{
+        
+        justify-content: space-between;
+        padding-bottom: 50px;
+        &__img{
+            padding-bottom: 20px;
+            width: 570px;
+            height: 484px;
+        }
+        &__date{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #CD4D31;
+
+            padding-bottom: 10px;
+        }
+        &__title{
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+
+            padding-bottom: 20px;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color:#504F5E;
+
+            padding-bottom: 50px;
+        }
+        &__button{
+            display: block;
+            width: 270px;
+            height: 70px;
+    
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            gap: 11px;
+            
+            background: #CD4D31;
+            color: #FFF;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.news{
+    padding: 110px 55px 100px 55px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+        margin: 0 auto;
+    }
+    &__items{
+        display: flex;
+        gap: 32px;
+    }
+    &__item{
+        &__date{
+            color: #1C1B29;
+        }
+    }
+}

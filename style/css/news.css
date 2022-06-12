@@ -1,0 +1,18 @@
+.news {
+  padding: 110px 55px 100px 55px;
+}
+.news__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+.news__items {
+  display: flex;
+  gap: 32px;
+}
+.news__item__date {
+  color: #1C1B29;
+}
+
+/*# sourceMappingURL=news.css.map */

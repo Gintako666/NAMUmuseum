@@ -1,0 +1,19 @@
+.events{
+    padding: 50px 55px 110px 55px;
+    &__top{
+        padding: 0 0 70px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    &__item{
+        display: flex;
+        gap: 30px;
+    }
+    
+}
+
